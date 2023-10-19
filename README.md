@@ -12,7 +12,7 @@ pip install -e ".[dev]"
 make manifest
 dagster dev
 ```
-
+DAGSTER_DBT_PARSE_PROJECT_ON_LOAD=1 dagster dev
 ## Code Structure
 
 To understand the structure, start with the file `hooli_data_eng/definitions.py`. This example includes a few key Dagster concepts:

@@ -147,6 +147,6 @@ dbt_views = load_assets_from_dbt_project(
     DBT_PROFILES_DIR,
     key_prefix=["ANALYTICS"],
     source_key_prefix="ANALYTICS",
-    select="company_perf sku_stats company_stats",
+    select="company_perf sku_stats company_stats new2",
     node_info_to_group_fn=lambda x: "ANALYTICS",
 )
